@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Wizzard App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- font awesome lib -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-box">
+                <img src="images/logo.png" alt="logo" width="70px">
+                <h1 class="logo-font">Text Wizzard</h1>
+            </div>
+
+            <div class="nav-box">
+                <a href="/">Home</a>
+                <a href="about-us.html">About us</a>
+                <a href="contact-us.html">Contact</a>
+                <a href="app.html" class="ln-btn">Launch App</a>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="util-box">
+                <h2>Get started by typing or pasting something...</h2>
+                <textarea name="" id="text-box" placeholder="Enter your text/paragraph here..."></textarea>
+                <div class="btn-group">
+                    <button>UPPERCASE</button>
+                    <button>lowercase</button>
+                    <button>Title Case</button>
+                    <button>Sentence case</button>
+                    <button>Remove Extra Space</button>
+                    <button>Clear text</button>
+                </div>
+                <div class="summary-box">
+                    <h2>Text summary: </h2>
+                    <p>Words count: 0 words and 0 charactres</p>
+                    <p>Read time: 0 mins</p>
+                </div>
+                <hr>
+                <div class="preview-box">
+                    <h2>Text preview: </h2>
+                    <p id="preview">Nothing to preview...</p>
+                    <button>Copy to clipoboard</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
